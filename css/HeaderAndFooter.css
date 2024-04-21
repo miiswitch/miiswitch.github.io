@@ -1,0 +1,55 @@
+/* Header */
+
+#header-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#header-line-container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-left{
+    float: left;
+    position: relative;
+    & > h1{
+        font-weight: normal;
+    }
+}
+
+#header-right{
+    float: right;
+    position: relative;
+}
+
+.link-header{
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+#linkedin-header{
+    position: relative;
+    top: 5px;
+    font-size: 2em;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+
+#footer-line-container{
+    min-height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
