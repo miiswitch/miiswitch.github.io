@@ -75,3 +75,69 @@ a:hover{
         flex: 1;
     }
 }
+
+.section-container{
+    margin-bottom: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.section-title{
+    padding-right: 30px;
+    width: 42%;
+}
+
+.section-heading{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: right;
+    color: var(--accent-color);
+    font-size: 1.5em;
+}
+
+.section-text{
+    width: 58%;
+    padding-top: 4px;
+    & > p{
+        margin-right: 20%;
+    }
+}
+
+#skill-list-container{
+    display: flex;
+    & > *:first-child, & > *:last-child{
+        width: 25%;
+    }
+    & > *:nth-child(2){
+        width: 50%;
+    }
+}
+
+.skill-column{
+    & > h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+#skill-engine-container{
+    display: flex;
+    & > *{
+        width: 50%;
+    }
+}
+
+.skill-list{
+    padding-left: 20px;
+    margin-right: 15%;
+    font-size: 14px;
+    & > li{
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+}
