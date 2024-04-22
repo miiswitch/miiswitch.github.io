@@ -141,3 +141,23 @@ a:hover{
         margin-bottom: 4px;
     }
 }
+
+#cv-text-container{
+    height: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#cv-text{
+    height: 100%;
+    display: flex;
+}
+
+#cv > img{
+    
+}
+
+#text-of-cv{
+    font-weight: 600;
+    font-size: 16px;
+}
