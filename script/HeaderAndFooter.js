@@ -10,8 +10,8 @@ window.onload = function() {
                     <a href="/" id="header-left"><h1>Antonin Laclautre</h1></a>
                     <nav id="header-right">
                         <a href="/" class="link-header">Home</a>
-                        <a href="/projects" class="link-header">Projects</a>
-                        <a href="/contact" class="link-header">Contact</a>
+                        <a href="./template/projects" class="link-header">Projects</a>
+                        <a href="./template/contact" class="link-header">Contact</a>
                         <a href="https://www.linkedin.com/in/antonin-laclautre/" class="link-header" id="linkedin-header"><i class="fa-brands fa-linkedin" style="color: #0965c1;"></i></a>
                     </nav>
                 </div>
