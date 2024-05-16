@@ -153,8 +153,14 @@ a:hover{
     display: flex;
 }
 
-#cv > img{
-    
+#cv > a > img{
+    width: 10vw;
+    min-width: 6.5rem;
+}
+
+#cv {
+    margin-right: 4%;
+    margin-left: 4%;
 }
 
 #text-of-cv{
